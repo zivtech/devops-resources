@@ -2359,6 +2359,21 @@
             "require-dev": {
                 "drupal/php": "*",
                 "drupal/token": "*"
+            "name": "drupal/environment_indicator",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/environment_indicator.git",
+                "reference": "8.x-3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/environment_indicator-8.x-3.6.zip",
+                "reference": "8.x-3.6",
+                "shasum": "a27e3ab20273cda039610156ab9b9267b5c46b9f"
+            },
+            "require": {
+                "drupal/core": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -2368,6 +2383,8 @@
                 "drupal": {
                     "version": "8.x-3.0",
                     "datestamp": "1548968580",
+                    "version": "8.x-3.6",
+                    "datestamp": "1553405885",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
