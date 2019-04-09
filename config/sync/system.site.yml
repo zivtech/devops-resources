@@ -1,0 +1,14 @@
+uuid: d659597d-b04c-4183-ac73-f31121ad5133
+name: 'DevOps for Drupal Lando Site'
+mail: example@example.com
+slogan: 'A dev site for devops exercises, now with config updates.'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
