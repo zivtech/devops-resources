@@ -16,3 +16,4 @@
 - David Corpstein
 - Ken Colwell
 - Romain Fabre
+- Scott Worthington
