@@ -1,4 +1,4 @@
-name: devops-ronnie
+name: devops
 recipe: drupal8
 config:
   webroot: web
