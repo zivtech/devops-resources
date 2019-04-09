@@ -1,4 +1,4 @@
-name: devops-training
-recipe: lamp
+name: devops
+recipe: drupal8
 config:
-  webroot: ./
+  webroot: web

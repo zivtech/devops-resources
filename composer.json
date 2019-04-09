@@ -23,6 +23,7 @@
         "drupal/address": "^1.6",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/environment_indicator": "^3.6",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
