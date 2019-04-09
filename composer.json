@@ -20,6 +20,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/address": "^1.6",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/environment_indicator": "^3.6",
@@ -77,6 +78,12 @@
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
+            }
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/address": {
+                        "The locality.name data is missed in PlainFormater": "https://www.drupal.org/files/issues/locality-name-data-missed-plainformater-2881391-1.patch"
             }
         }
     }
