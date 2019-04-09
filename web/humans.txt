@@ -5,4 +5,5 @@
 - Drew Keller
 - Rupak Nepali
 - Jeremiah Buttler
+- Erwin Seguinte
 
