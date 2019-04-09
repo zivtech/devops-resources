@@ -15,3 +15,4 @@ Ivan Rodriguez
 - Jordan L
 - David Corpstein
 - Ken Colwell
+- Romain Fabre
