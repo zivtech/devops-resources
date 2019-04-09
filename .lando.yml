@@ -1,0 +1,4 @@
+name: devops-training
+recipe: lamp
+config:
+  webroot: ./
