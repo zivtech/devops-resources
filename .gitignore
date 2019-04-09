@@ -22,3 +22,7 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore SQL dumps.
+*.sql
+*.sql.gz
