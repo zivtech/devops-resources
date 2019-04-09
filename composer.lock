@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "104211ed8a2b5bfe744f6f7e5cfc7361",
+    "content-hash": "78a4cdc7dbdac73dfd63b37fba324318",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2389,6 +2389,68 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/environment_indicator"
             }
+        },
+        {
+            "name": "drupal/shib_auth",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/shib_auth.git",
+                "reference": "43d4f41b32e5cca99e6405e85b881cfb4f12d304"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1550278984",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bajnokk",
+                    "homepage": "https://www.drupal.org/user/250470"
+                },
+                {
+                    "name": "dorion",
+                    "homepage": "https://www.drupal.org/user/57442"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "martoni",
+                    "homepage": "https://www.drupal.org/user/215678"
+                },
+                {
+                    "name": "niif",
+                    "homepage": "https://www.drupal.org/user/116318"
+                },
+                {
+                    "name": "shafter",
+                    "homepage": "https://www.drupal.org/user/496918"
+                }
+            ],
+            "description": "Provides user authentication with Shibboleth (both v1.3 and v2.0) as well as some authorisation features (automatic role assignment based on Shibboleth attributes).",
+            "homepage": "https://www.drupal.org/project/shib_auth",
+            "support": {
+                "source": "https://git.drupalcode.org/project/shib_auth"
+            },
+            "time": "2019-02-16T01:02:52+00:00"
         },
         {
             "name": "drush/drush",
@@ -7897,7 +7959,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/shib_auth": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
