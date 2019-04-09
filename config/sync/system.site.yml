@@ -1,6 +1,6 @@
-uuid: d659597d-b04c-4183-ac73-f31121ad5133
-name: 'DevOps for Drupal Lando Site'
-mail: example@example.com
+uuid: 13eef4ef-7196-4757-bb52-5010d8afbdd6
+name: 'DevOps for Drupal'
+mail: jody@zivtech.com
 slogan: 'A dev site for devops exercises, now with config updates.'
 page:
   403: ''
@@ -12,3 +12,4 @@ langcode: en
 default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+
