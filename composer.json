@@ -23,6 +23,7 @@
         "drupal/address": "^1.6",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/google_analytics": "^3.0",
         "drupal/environment_indicator": "^3.6",
         "drupal/shib_auth": "1.x-dev",
         "drupal/scheduler": "^1.0",
