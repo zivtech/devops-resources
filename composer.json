@@ -87,6 +87,9 @@
         "patches": {
             "drupal/address": {
                         "The locality.name data is missed in PlainFormater": "https://www.drupal.org/files/issues/locality-name-data-missed-plainformater-2881391-1.patch"
+            },
+            "drupal/scheduler": {
+                "Fix coding standards violations in 8.x codebase": "https://www.drupal.org/files/issues/2019-03-27/2861902-26.create-coding-standards-failures.patch"
             }
         }
     }
