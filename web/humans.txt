@@ -1,4 +1,4 @@
-Ivan Rodriguez
+- Ivan Rodriguez
 - Ronnie Mosley
 - Jody Hamilton
 - Richard Hammond
@@ -15,3 +15,4 @@ Ivan Rodriguez
 - Jordan L
 - David Corpstein
 - Ken Colwell
+- Romain Fabre
