@@ -1,4 +1,21 @@
 steps:
-  - name: Test Probo Connection!
-    plugin: Shell
-    command: 'echo "Hello World"'
+  - name: Step 1 10 seconds
+    plugin: Script
+    script: |
+      echo "Testing probo steps..."
+      wait 10s
+  - name: Step 2 20 seconds
+    plugin: Script
+    script: |
+      echo "Testing probo steps..."
+      wait 20s
+  - name: Step 3 30 seconds
+    plugin: Script
+    script: |
+      echo "Testing probo steps..."
+      wait 30s
+  - name: Step 1 10 seconds
+    plugin: Script
+    script: |
+      echo "Done!"
+      wait 10s
