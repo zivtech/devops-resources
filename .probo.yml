@@ -1,0 +1,4 @@
+steps:
+  - name: Test Probo Connection!
+    plugin: Shell
+    command: 'echo "Hello World"'
