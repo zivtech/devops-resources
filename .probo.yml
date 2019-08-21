@@ -1,5 +1,7 @@
+notifications:
+  slack: true
 steps:
-  - name: Step 1 10 seconds..
+  - name: Step 1 10 seconds
     plugin: Script
     script: |
       echo "Testing probo steps..."
