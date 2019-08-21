@@ -1,8 +1,5 @@
 notifications:
-  slack:
-    message: 'Custom message: New Probo build for project `$PROJECT_NAME` on branch `$BRANCH_NAME` at $BUILD_URL'
-    webhook:
-      - https://hooks.slack.com/services/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
+  slack: true
 steps:
   - name: Step 1 10 seconds
     plugin: Script
